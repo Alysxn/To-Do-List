@@ -36,6 +36,7 @@ O código é estruturado em classes, promovendo a modularidade e a separação d
 
 ![Tela Inicial](img/To-Do-List-Image.png)
 *Tela Inicial da Aplicação*
+
 ![Tela Inicial](img/To-Do-List-Image2.png)
 *Tarefas adicionadas*
 
