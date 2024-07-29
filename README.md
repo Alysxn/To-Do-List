@@ -44,6 +44,6 @@ O código é estruturado em classes, promovendo a modularidade e a separação d
 
 1. Clone este repositório em sua máquina local.
    ```bash
-   git clone https://github.com/seuusuario/to-do-list.git
+   git clone https://github.com/Alysxn/To-Do-List.git
 2. Abra o projeto no Visual Studio.
 3. Compile e execute a aplicação.
