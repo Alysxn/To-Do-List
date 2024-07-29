@@ -1,2 +1,50 @@
-# To-Do-List
-To-Do List desenvolvida em C# utilizando Windows Forms como interface gráfica e SQLite como banco de dados. A aplicação implementa todas as funcionalidades de um CRUD, seguindo o paradigma POO -Programação Orientada a Objetos.
+# To-Do List Application
+
+Este é um projeto pessoal de uma aplicação de lista de tarefas (To-Do List) desenvolvida em C# utilizando a plataforma .NET. A aplicação utiliza Windows Forms para a interface gráfica e SQLite como banco de dados, implementando todas as funcionalidades de um CRUD (Create, Read, Update, Delete). O projeto segue princípios de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento.
+
+## Funcionalidades
+
+- **Adicionar Tarefas**: Interface para inserir novas tarefas, com campos para título e descrição.
+- **Visualizar Tarefas**: Lista de tarefas com detalhes como título, descrição e status (pendente/completo).
+- **Editar Tarefas**: Funcionalidade para atualizar informações das tarefas existentes.
+- **Excluir Tarefas**: Opção para remover tarefas da lista.
+- **Persistência de Dados**: Utiliza SQLite para armazenamento e gerenciamento de dados, garantindo a persistência entre sessões.
+
+## Tecnologias Utilizadas
+
+- **C#**: Linguagem de programação utilizada para desenvolver a aplicação.
+- **.NET**: Plataforma que fornece o ambiente de desenvolvimento para a aplicação.
+- **Windows Forms**: Framework para a criação da interface gráfica do usuário.
+- **SQLite**: Banco de dados leve utilizado para armazenar as informações das tarefas.
+- **Programação Orientada a Objetos (POO)**: Estrutura do código seguindo princípios de encapsulamento, herança e polimorfismo.
+  
+## Estrutura do Código
+
+O código é estruturado em classes, promovendo a modularidade e a separação de responsabilidades. As principais classes incluem:
+
+- **Task**: Representa uma tarefa com atributos como `Title`, `Description` e `Status`.
+- **TaskManager**: Classe responsável pela lógica de CRUD, interagindo com o banco de dados SQLite.
+- **MainForm**: Classe que representa a interface do usuário, gerenciando eventos e a interação com o usuário.
+
+## Boas Práticas
+
+- **Código Limpo**: O código é escrito de forma clara e legível, facilitando a manutenção e a compreensão.
+- **Tratamento de Erros**: Implementação de tratamento de exceções para garantir que a aplicação lida com erros de forma apropriada.
+- **Design Responsivo**: A interface é projetada para ser intuitiva e responsiva, proporcionando uma boa experiência ao usuário.
+
+## Imagens do Projeto
+
+![Tela Inicial](imagens/tela_inicial.png)
+*Tela Inicial da Aplicação*
+
+![Adicionar Tarefa](imagens/adicionar_tarefa.png)
+*Interface para Adicionar Nova Tarefa*
+
+![Lista de Tarefas](imagens/lista_tarefas.png)
+*Lista de Tarefas com Detalhes*
+
+## Instruções para Execução
+
+1. Clone este repositório em sua máquina local.
+   ```bash
+   git clone https://github.com/seuusuario/to-do-list.git
