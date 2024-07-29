@@ -23,7 +23,7 @@ Este é um projeto pessoal de uma aplicação de lista de tarefas (To-Do List) d
 
 O código é estruturado em classes, promovendo a modularidade e a separação de responsabilidades. As principais classes incluem:
 
-- **Database**: Classe responsável pela incialização e operações com o banco de dados SQLITe.
+- **Database**: Classe responsável pela incialização e operações com o banco de dados SQLite.
 - **Forms**: Classe responsável pela lógica de CRUD.
 
 ## Boas Práticas
