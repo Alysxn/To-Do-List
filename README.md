@@ -8,6 +8,7 @@ Este é um projeto pessoal de uma aplicação de lista de tarefas (To-Do List) d
 - **Visualizar Tarefas**: Lista de tarefas com detalhes como título, descrição e status (pendente/completo).
 - **Editar Tarefas**: Funcionalidade para atualizar informações das tarefas existentes.
 - **Excluir Tarefas**: Opção para remover tarefas da lista.
+- **Buscar Tarefas**: Realizar a busca de alguma tarefa da lista.
 - **Persistência de Dados**: Utiliza SQLite para armazenamento e gerenciamento de dados, garantindo a persistência entre sessões.
 
 ## Tecnologias Utilizadas
@@ -22,9 +23,8 @@ Este é um projeto pessoal de uma aplicação de lista de tarefas (To-Do List) d
 
 O código é estruturado em classes, promovendo a modularidade e a separação de responsabilidades. As principais classes incluem:
 
-- **Task**: Representa uma tarefa com atributos como `Title`, `Description` e `Status`.
-- **TaskManager**: Classe responsável pela lógica de CRUD, interagindo com o banco de dados SQLite.
-- **MainForm**: Classe que representa a interface do usuário, gerenciando eventos e a interação com o usuário.
+- **Database**: Classe responsável pela incialização e operações com o banco de dados SQLITe.
+- **Forms**: Classe responsável pela lógica de CRUD.
 
 ## Boas Práticas
 
@@ -48,3 +48,5 @@ O código é estruturado em classes, promovendo a modularidade e a separação d
 1. Clone este repositório em sua máquina local.
    ```bash
    git clone https://github.com/seuusuario/to-do-list.git
+2. Abra o projeto no Visual Studio.
+3. Compile e execute a aplicação.
