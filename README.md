@@ -1,4 +1,4 @@
-# To-Do List Application
+# To-Do List
 
 Este é um projeto pessoal de uma aplicação de lista de tarefas (To-Do List) desenvolvida em C# utilizando a plataforma .NET. A aplicação utiliza Windows Forms para a interface gráfica e SQLite como banco de dados, implementando todas as funcionalidades de um CRUD (Create, Read, Update, Delete). O projeto segue princípios de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento.
 
