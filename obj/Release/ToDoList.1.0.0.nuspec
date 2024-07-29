@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ToDoList</id>
+    <version>1.0.0</version>
+    <authors>ToDoList</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="System.Data.SQLite" version="1.0.118" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net8.0-windows7.0/check-list.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\Alyson\Desktop\todo\ToDoList\bin\Release\net8.0-windows\ToDoList.runtimeconfig.json" target="lib\net8.0-windows7.0\ToDoList.runtimeconfig.json" />
+    <file src="C:\Users\Alyson\Desktop\todo\ToDoList\bin\Release\net8.0-windows\ToDoList.dll" target="lib\net8.0-windows7.0\ToDoList.dll" />
+    <file src="C:\Users\Alyson\Desktop\todo\ToDoList\check-list.ico" target="content\check-list.ico" />
+    <file src="C:\Users\Alyson\Desktop\todo\ToDoList\check-list.ico" target="contentFiles\any\net8.0-windows7.0\check-list.ico" />
+  </files>
+</package>
