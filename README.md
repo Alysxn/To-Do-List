@@ -34,14 +34,8 @@ O código é estruturado em classes, promovendo a modularidade e a separação d
 
 ## Imagens do Projeto
 
-![Tela Inicial](imagens/tela_inicial.png)
+![Tela Inicial](img/To-Do-List-Image.png)
 *Tela Inicial da Aplicação*
-
-![Adicionar Tarefa](imagens/adicionar_tarefa.png)
-*Interface para Adicionar Nova Tarefa*
-
-![Lista de Tarefas](imagens/lista_tarefas.png)
-*Lista de Tarefas com Detalhes*
 
 ## Instruções para Execução
 
